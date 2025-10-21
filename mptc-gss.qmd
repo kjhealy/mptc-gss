@@ -4,13 +4,20 @@ author: "Your name here"
 date: last-modified
 ---
 
-## Setup
+## Before you do anything else
 
 - Fork this repository and then clone it to your laptop.
 
 - Install [`gssr`](https://kjhealy.github.io/gssr) and [`gssrdoc`](https://kjhealy.github.io/gssrdoc), following the instructions on their web pages.
 
-## Data
+## Setup and Data
+
+```{r}
+library(tidyverse)
+library(gssr)
+library(gssrdoc)
+```
+
 
 ```{r}
 data(gss_all)
