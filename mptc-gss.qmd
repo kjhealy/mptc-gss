@@ -1,0 +1,27 @@
+---
+title: "MPTC GSS Project"
+author: "Your name here"
+date: last-modified
+---
+
+## Setup
+
+- Fork this repository and then clone it to your laptop.
+
+- Install [`gssr`](https://kjhealy.github.io/gssr) and [`gssrdoc`](https://kjhealy.github.io/gssrdoc), following the instructions on their web pages.
+
+## Data
+
+```{r}
+data(gss_all)
+
+gss_all
+```
+
+
+## Analysis
+
+```{r}
+
+```
+
